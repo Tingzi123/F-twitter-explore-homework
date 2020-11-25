@@ -1,3 +1,11 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+@import "header";
+@import "main";
+
+.header {
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}

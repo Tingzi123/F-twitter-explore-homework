@@ -1,0 +1,10 @@
+.btn-all {
+  > .login {
+    @include btn-variant($primary-color, $body-bg, 100px);
+  }
+
+  > .register {
+    @include btn-variant(white, $primary-color, 100px);
+    border-color: $primary-color;
+  }
+}
